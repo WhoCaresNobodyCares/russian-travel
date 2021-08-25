@@ -19,6 +19,7 @@
 @import url(../blocks/header/__link/header__link.css);
 /* header modifiers */
 @import url(../blocks/header/_size/header_size.css);
+@import url(../blocks/header/__link/_underline/header__link_underline.css);
 
 /* ---------------------------------------- */
 

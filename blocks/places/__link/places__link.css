@@ -1,0 +1,13 @@
+.places__link {
+  /* position */
+  margin: 0;
+  /* font */
+  font: 400 18px/1.22 "Inter", arial, sans-serif;
+  /* color */
+  color: #fff;
+}
+
+.places__link:hover {
+  transition: opacity 0.2s ease;
+  opacity: 0.8;
+}

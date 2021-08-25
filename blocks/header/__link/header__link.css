@@ -1,0 +1,26 @@
+.header__link {
+  /* font */
+  font: 400 24px/1.17 "Inter", arial, sans-serif;
+  /* color */
+  color: #fff;
+  /* text */
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.header__link:hover {
+  transition: opacity 0.2s ease;
+  opacity: 0.8;
+}
+
+.header__link:last-child {
+  /* text */
+  text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+  .header__link {
+    /* font */
+    font: 400 18px/1.11 "Inter", arial, sans-serif;
+  }
+}

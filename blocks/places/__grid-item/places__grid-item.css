@@ -1,0 +1,27 @@
+.places__grid-item {
+}
+
+.places__grid-item:nth-child(2) {
+  /* display */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 720px) {
+  .places__grid-item {
+    /* position */
+    width: calc(100vw - (16px * 2));
+    margin: auto;
+  }
+  .places__grid-item:nth-child(2) {
+    /* position */
+    margin: 0 auto 32px auto;
+    /* display */
+    display: block;
+  }
+  .places__grid-item:nth-child(3) {
+    /* position */
+    width: 100%;
+  }
+}

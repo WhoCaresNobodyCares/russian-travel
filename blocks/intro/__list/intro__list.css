@@ -1,0 +1,7 @@
+.intro__list {
+  /* position */
+  padding: 0;
+  margin: 0;
+  /* list */
+  list-style-type: none;
+}

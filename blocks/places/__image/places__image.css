@@ -1,0 +1,11 @@
+.places__image {
+  /* position */
+  width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .places__image {
+    /* position */
+    margin: 0 0 32px 0;
+  }
+}

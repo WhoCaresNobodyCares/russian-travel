@@ -1,0 +1,25 @@
+.footer__link {
+  text-decoration: none;
+  margin: 0 18px 0 0;
+  font: 400 16px/1.12 "Inter", arial, sans-serif;
+  color: #fff;
+}
+
+.footer__link:last-child {
+  margin: 0;
+}
+
+.footer__link:hover {
+  transition: opacity 0.2s ease;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 720px) {
+  .footer__link {
+    font: 400 24px/1 "Inter", arial, sans-serif;
+    margin: 0 0 32px 0;
+  }
+  .footer__link:last-child {
+    margin: 0;
+  }
+}

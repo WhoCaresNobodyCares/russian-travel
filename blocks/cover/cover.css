@@ -1,0 +1,20 @@
+.cover {
+  /* position */
+  position: relative;
+  /* background */
+  background-image: url(../../images/cover_trains.jpg);
+  background-position: center;
+  background-size: cover;
+  /* display */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  padding-top: 62.6%;
+}

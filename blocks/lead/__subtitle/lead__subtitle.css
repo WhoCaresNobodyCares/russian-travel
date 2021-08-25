@@ -1,0 +1,29 @@
+.lead__subtitle {
+  /* position */
+  max-width: 640px;
+  margin: 0 auto 64px auto;
+  /* font */
+  font: 400 30px/1.2 "Inter", arial, sans-serif;
+  /* color */
+  color: #fff;
+  /* text */
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    /* position */
+    margin: 0 auto 56px auto;
+    /* font */
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .lead__subtitle {
+    /* position */
+    max-width: 288px;
+    margin: 0 auto 40px auto;
+    /* font */
+    font: 400 16px/1.25 "Inter", arial, sans-serif;
+  }
+}

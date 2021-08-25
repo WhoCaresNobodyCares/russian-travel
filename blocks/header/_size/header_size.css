@@ -1,0 +1,29 @@
+.header_size {
+  /* position */
+  width: calc(100vw - (48px * 2));
+  max-width: 1184px;
+  padding: 28px 0 56px 0;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .header_size {
+    /* position */
+    padding: 28px 0 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_size {
+    /* position */
+    width: calc(100vw - (24px * 2));
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header_size {
+    /* position */
+    width: calc(100vw - (16px * 2));
+    padding: 16px 0 48px 0;
+  }
+}

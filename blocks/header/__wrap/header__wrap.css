@@ -1,0 +1,8 @@
+.header__wrap {
+  /* position */
+  width: 77px;
+  /* display */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

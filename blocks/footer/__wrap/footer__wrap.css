@@ -1,0 +1,7 @@
+@media screen and (max-width: 720px) {
+  .footer__wrap {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+}

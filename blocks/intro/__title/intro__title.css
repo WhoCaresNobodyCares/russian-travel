@@ -1,0 +1,15 @@
+.intro__title {
+  /* position */
+  margin: 0 0 40px 0;
+  /* font */
+  font: 900 54px/1.07 "Inter", arial, sans-serif;
+  /* color */
+  color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+  .intro__title {
+    /* font */
+    font: 900 32px/1.09 "Inter", arial, sans-serif;
+  }
+}

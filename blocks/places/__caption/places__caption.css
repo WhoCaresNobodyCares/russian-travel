@@ -1,0 +1,11 @@
+.places__caption {
+  /* position */
+  margin: 0 0 12px 0;
+  /* font */
+  font: 400 12px/1 "Inter", arial, sans-serif;
+  letter-spacing: 2px;
+  /* color */
+  color: #aaa;
+  /* text */
+  text-transform: uppercase;
+}

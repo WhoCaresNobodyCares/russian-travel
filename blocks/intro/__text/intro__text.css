@@ -1,0 +1,9 @@
+.intro__text {
+  /* position */
+  max-width: 690px;
+  margin: 0 0 33px 0;
+  /* font */
+  font: 400 16px/1.63 "Inter", arial, sans-serif;
+  /* color */
+  color: #fff;
+}

@@ -1,0 +1,30 @@
+.intro_size {
+  /* position */
+  width: calc(100vw - (148px * 2));
+  max-width: 984px;
+  margin: auto;
+  padding: 92px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro_size {
+    /* position */
+    width: calc(100vw - (48px * 2));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro_size {
+    /* position */
+    width: calc(100vw - (24px * 2));
+    padding: 88px 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .intro_size {
+    /* position */
+    width: calc(100vw - (16px * 2));
+    padding: 64px 0;
+  }
+}

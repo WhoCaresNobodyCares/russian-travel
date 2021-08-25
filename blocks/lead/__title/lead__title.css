@@ -1,0 +1,19 @@
+.lead__title {
+  /* position */
+  margin: 0 0 32px 0;
+  /* font */
+  font: 900 96px/1.04 "Inter", arial, sans-serif;
+  /* color */
+  color: #fff;
+  /* text */
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .lead__title {
+    /* position */
+    margin: 0 0 16px 0;
+    /* font */
+    font: 900 40px/1.1 "Inter", arial, sans-serif;
+  }
+}

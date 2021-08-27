@@ -1,9 +1,13 @@
 .intro__text {
-  /* position */
   max-width: 690px;
-  margin: 0 0 33px 0;
-  /* font */
+  margin: 0;
+  margin-bottom: 33px;
   font: 400 16px/1.63 "Inter", arial, sans-serif;
-  /* color */
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 100%;
+  }
 }

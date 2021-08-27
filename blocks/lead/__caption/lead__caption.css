@@ -1,25 +1,19 @@
 .lead__caption {
-  /* position */
   margin: 0;
-  /* font */
   font: 400 10px/1.4 "Inter", arial, sans-serif;
   letter-spacing: 1.5px;
-  /* color */
   color: #fff;
-  /* text */
   text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
-    /* position */
     padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
   .lead__caption {
-    /* position */
     padding-left: 16px;
   }
 }

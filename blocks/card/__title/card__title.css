@@ -1,0 +1,29 @@
+.card__title {
+  max-width: 100%;
+  margin: 0;
+  font: 900 72px/1.06 "Inter", arial, sans-serif;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .card__title {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card__title {
+    width: calc(100vw - (16px * 2));
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

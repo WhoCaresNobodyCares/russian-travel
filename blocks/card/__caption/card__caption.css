@@ -1,0 +1,9 @@
+.card__caption {
+  max-width: 100%;
+  margin: 0;
+  margin-bottom: 12px;
+  font: 400 12px/1 "Inter", arial, sans-serif;
+  letter-spacing: 2px;
+  color: #aaa;
+  text-transform: uppercase;
+}

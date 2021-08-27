@@ -1,4 +1,4 @@
 .photo-grid__item {
-  /* visual */
-  overflow-x: hidden;
+  width: 100%;
+  overflow: hidden;
 }

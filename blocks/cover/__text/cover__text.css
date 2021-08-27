@@ -1,24 +1,16 @@
 .cover__text {
-  /* position */
-  max-width: 360px;
-  margin: 0 auto 32px auto;
-  position: relative;
-  /* index */
   z-index: 1;
-  /* font */
+  max-width: 360px;
+  margin: 0;
   font: 400 18px/1.22 "Inter", arial, sans-serif;
-  /* color */
   color: #fff;
-  /* text */
   text-align: center;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
   .cover__text {
-    /* position */
     max-width: 288px;
-    margin: 0 auto 16px auto;
-    /* font */
-    font: 400 14px/1.14 "Inter", arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
   }
 }

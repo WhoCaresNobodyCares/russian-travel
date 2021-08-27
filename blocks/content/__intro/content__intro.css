@@ -1,0 +1,29 @@
+.content__intro {
+  width: calc(100vw - (148px * 2));
+  max-width: 984px;
+  margin: auto;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content__intro {
+    width: calc(100vw - (48px * 2));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__intro {
+    width: calc(100vw - (24px * 2));
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content__intro {
+    width: calc(100vw - (16px * 2));
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}

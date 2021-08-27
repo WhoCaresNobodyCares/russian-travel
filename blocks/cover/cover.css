@@ -1,17 +1,13 @@
 .cover {
-  /* position */
-  position: relative;
-  /* background */
   background-image: url(../../images/cover_trains.jpg);
   background-position: center;
   background-size: cover;
-  /* display */
+  position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
-.cover:before {
+.cover::before {
   content: "";
   display: block;
   width: 0;

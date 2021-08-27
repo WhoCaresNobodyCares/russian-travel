@@ -1,0 +1,17 @@
+.card__link {
+  max-width: 100%;
+  margin: 0;
+  font: 400 18px/1.22 "Inter", arial, sans-serif;
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+
+.card__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .card__link {
+    margin-bottom: 32px;
+  }
+}

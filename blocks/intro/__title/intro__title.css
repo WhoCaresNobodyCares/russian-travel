@@ -1,15 +1,18 @@
 .intro__title {
-  /* position */
   margin: 0 0 40px 0;
-  /* font */
   font: 900 54px/1.07 "Inter", arial, sans-serif;
-  /* color */
   color: #fff;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .intro__title {
-    /* font */
-    font: 900 32px/1.09 "Inter", arial, sans-serif;
+    font-size: 7.03vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.09;
   }
 }

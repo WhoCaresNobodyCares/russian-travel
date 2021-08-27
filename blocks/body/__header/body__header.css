@@ -1,0 +1,26 @@
+.body__header {
+  width: calc(100vw - (48px * 2));
+  max-width: 1184px;
+  padding-top: 28px;
+  padding-bottom: 56px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .body__header {
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body__header {
+    width: calc(100vw - (24px * 2));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body__header {
+    width: calc(100vw - (16px * 2));
+    padding-top: 16px;
+  }
+}

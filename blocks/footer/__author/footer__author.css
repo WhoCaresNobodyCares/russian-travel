@@ -1,16 +1,17 @@
 .footer__author {
-  /* position */
   margin: 0;
-  /* font */
   font: 400 14px/1.14 "Inter", arial, sans-serif;
-  /* color */
   color: #fff;
-  /* text */
   text-decoration: none;
-  text-align: right;
 }
 
 .footer__author:hover {
   transition: opacity 0.2s ease;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__author {
+    line-height: 1;
+  }
 }

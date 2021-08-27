@@ -10,7 +10,7 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 688px) {
   .footer__author {
     line-height: 1;
   }

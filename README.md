@@ -7,6 +7,6 @@
 - Flexbox
 - Grid Layout
 ## Методология
-- БЭМ
+- BEM 
 ## GitHub Pages
 https://whocaresnobodycares.github.io/russian-travel/
